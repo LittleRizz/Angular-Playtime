@@ -1,12 +1,22 @@
 <!DOCTYPE html>
-<html ng-app>
+<html>
 <head>
 	<title>PORKCHOP SANDWICHES</title>
 </head>
-<body>
+<body ng-app="myApp">
+
+	<h2>What's your name?</h2><br>
+	<input type="text" ng-model="name"></input><br>
+	Hello <span>{{ name }}</span><br><br><br>
+
+	<!--It's a picture! -->
+	<img src="http://cdn.bleedingcool.net/wp-content/uploads/2014/11/Night-Vale-Glow-Cloud.gif">
+
+
 
 
 <!--Javasctipt Imports-->
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+	<script src="app.js"></script>
 </body>
 </html>
